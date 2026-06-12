@@ -14,7 +14,7 @@ if [ ! -d "$HOME/.mdr" ]; then
     rm -rf ~/fonts
 
     # Clone MDR
-    git clone --depth=1 https://github.com/ericksonDyeggo/mdr.git "$HOME/.mdr"
+    git clone --depth=1 https://github.com/erickson2903/mdr.git "$HOME/.mdr"
 
     # Symlink fish config (replaces zsh/Prezto)
     ln -fs "$HOME/.mdr/fish" "$HOME/.config/fish"

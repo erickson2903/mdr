@@ -2,7 +2,7 @@
 
 ## Install
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ericksonDyeggo/mdr/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/erickson2903/mdr/master/install.sh)"
 ```
 
 ## What's included
