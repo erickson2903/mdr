@@ -20,8 +20,11 @@ if [ ! -d "$HOME/.mdr" ]; then
     ln -fs "$HOME/.mdr/fish" "$HOME/.config/fish"
 
     # Symlink other dotfiles (unchanged)
-    ln -fs "$HOME/.mdr/gitignore" "$HOME/.gitignore"
-    ln -fs "$HOME/.mdr/gitconfig" "$HOME/.gitconfig"
+    # gitconfig: create file with include instead of symlink, to allow local customizations
+    cat > "$HOME/.gitconfig" << EOF
+[include]
+	path = ~/.mdr/gitconfig
+EOF
     ln -fs "$HOME/.mdr/tmux.conf" "$HOME/.tmux.conf"
 
     # Set fish as default shell
