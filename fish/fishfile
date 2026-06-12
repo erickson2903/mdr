@@ -12,3 +12,6 @@ docker
 
 # DNF completions
 jorgebucaran/fish-completions
+
+# Pure prompt theme
+pure-fish/pure
