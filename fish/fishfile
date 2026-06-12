@@ -1,0 +1,14 @@
+# Fisher plugin list
+# Install with: fisher update
+#
+# Prezto module equivalents that need external plugins:
+#
+
+# Rails completions (replaces Prezto rails module)
+edouard-lopez/rails-on-fish
+
+# Docker completions
+docker
+
+# DNF completions
+jorgebucaran/fish-completions

@@ -2,3 +2,4 @@ vim/backups
 vim/bundle
 vim/**/*.old
 vim/vim
+fish/fish_variables
