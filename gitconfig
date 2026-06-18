@@ -110,7 +110,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.mdr/gitignore
+  excludesfile = ~/.gitignore
 [advice]
   # disable “how to stage/unstage/add” hints given by git status
   statusHints = false
